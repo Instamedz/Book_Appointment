@@ -1,0 +1,112 @@
+/* FAQ h2 */
+.FAQ-h2 {
+  background-color: white;
+  padding: 1rem 0 0 10rem;
+  font-weight: bold;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+margin-top: 2rem;
+}
+/* ------------------------------------------------------ */
+/* FAQ Hover*/
+
+.FAQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 27rem;
+}
+
+.FAQ-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  min-height: 29rem;
+}
+
+.FAQ-container .card {
+  position: relative;
+  width: 510px;
+  height: 350px;
+  border-bottom: 0.6rem solid lightblue !important;
+  border-right: 0.6rem solid lightblue !important;
+  border: 0.2rem solid lightblue;
+  border-radius: 2.2rem;
+  margin: 0 2rem;
+  overflow: hidden;
+}
+
+.FAQ-container .card .contentAx,
+.FAQ-container .card .contentBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.FAQ-container .card .contentAx > p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  object-fit: contain;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0 0 2rem;
+  font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+}
+
+.FAQ-container .card .contentBx::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: scaleY(0);
+  transition: transform 0.2s ease-in;
+  transform-origin: right;
+}
+.FAQ-container .card:hover .contentBx::before {
+  transform: scaleY(1);
+  transition: transform 0.2s ease-in;
+  transform-origin: top;
+  /* background: blue; */
+}
+.FAQ-container .card .contentBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FAQ-container .card .contentBx .content2 {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  transition: 0.5s;
+  transform: translateY(20rem);
+  transition-delay: 0s;
+}
+.FAQ-container .card:hover .contentBx .content2 {
+  transform: translateX(0px);
+}
+
+.FAQ-container .card .contentBx .content2 > p {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.linegap {
+  margin: 3rem;
+}
