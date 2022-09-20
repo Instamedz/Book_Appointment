@@ -1,0 +1,246 @@
+/* Footer */
+.Footer {
+  background: url(/images/Pattern.png) no-repeat right fixed;
+  color: white !important;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  font-weight: 900 !important;
+  font-size: larger !important;
+  position: absolute;
+  min-width: 100%;
+  height: 16rem;
+  justify-content: center;
+  align-items: stretch;
+}
+.foo-img {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  max-width: 176px;
+  max-height: 53px;
+}
+
+/* Footer 1st section */
+.F1 {
+  min-width: 20%;
+  text-align: center;
+  padding: 1.5rem 5rem 0 2rem;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.Social-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+.Social-icon {
+  display: block;
+  padding: 1rem;
+  max-height: 3rem;
+}
+
+/* Social media icons */
+.Social-icon {
+
+}
+
+.Social-icon a > img {
+  max-width: 2.5rem;
+  min-height: 2.5rem;
+  background-color: white;
+  border-radius: .5rem;
+  padding: .3rem;
+  margin-top: 0.5rem;
+}
+.Social-icon a > svg {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  background-color: white;
+  border-radius: .5rem;
+  padding: .3rem;
+  margin-top: 0.5rem;
+}
+.Social-icon a {
+}
+
+/* Services */
+
+.F2 {
+  max-width: 200px;
+
+  margin-left: 0.5rem;
+}
+/* heading */
+.F2 > h2 {
+  min-width: 15rem;
+  margin: 1rem;
+  padding-top: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* care list */
+.F2 > span > a {
+  margin: 0 2.2rem 0 0;
+  max-width: 70%;
+  text-align: left;
+  font-weight: 300;
+  padding: 0.3rem 0 0.2rem 1.1rem;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.F2 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.F2 > span > a:hover {
+  text-decoration: underline;
+}
+
+/* Products */
+.F3 {
+  max-width: 200px;
+}
+.F3 span {
+  text-align: left;
+}
+
+.F3 span a {
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  max-width: 90%;
+  color: white;
+  text-decoration: none;
+  font-weight: 400 !important;
+  margin-left: 0.75rem;
+}
+
+.F3 > h2 {
+  min-width: 15rem;
+  margin: 1rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 20px;
+}
+.F3 a {
+  display: block;
+}
+.F3 > span > a:hover {
+  text-decoration: underline;
+}
+
+/* Overview */
+.F4 {
+  max-width: 200px;
+}
+.F4 span {
+  text-align: left;
+}
+.F4 span a {
+  padding: 0.2rem 0 0.2rem 0.3rem;
+  max-width: 90%;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+}
+.F4 > h2 {
+  min-width: 15rem;
+  margin: 1rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 20px;
+}
+.F4 > span > a:hover {
+  text-decoration: underline;
+}
+.F4 a {
+  display: block;
+}
+
+/* Subscription */
+.F5 {
+  min-width: auto;
+  text-align: start;
+  margin-left: 4rem;
+}
+.F5 > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 1rem;
+  padding-top: 0.4rem;
+}
+
+#F5-1 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+#F5-1 > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 1.5rem 1rem 1rem 1rem;
+}
+#F5-1 a:last-child {
+  margin-left: 2rem;
+}
+#F5-1 a:hover {
+  text-decoration: underline;
+}
+.F5 form {
+  margin: 0;
+}
+
+.F5 input:first-child {
+  min-width: 340px;
+  min-height: 42px;
+  border-radius: 15px 0px 0px 15px;
+  font-weight: 100;
+  padding-left: 1.5rem;
+  font-size: 20px;
+}
+.F5 input::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.F5 input:last-child {
+  min-width: 123px;
+  min-height: 42px;
+  border-radius: 0px 15px 15px 0px;
+  background: rgba(56, 154, 228, 0.77);
+  border: 0.5px solid #ffffff;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* Address phone */
+.F5 span a {
+  padding: 0;
+  min-width: 50%;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0rem;
+  margin: 1rem;
+}
